@@ -34,7 +34,7 @@ p {
     flex-direction:column;
     align-items: center;
     width: 100%;
-    height: 10000px;
+    height: 5000px;
 
 
 }
@@ -50,6 +50,7 @@ p {
 }
 
 .ultimo {
+    display: flex;
     background-color: #6B00FF;
     width: 1348px;
     height: 798px;
