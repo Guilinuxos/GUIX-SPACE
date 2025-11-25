@@ -10,33 +10,24 @@ body{
     background-color: black;
 }
 
-h1 {
-    top: 100px;
+.title {
     font-family: Vina sans;
     text-align: center;
     color: white;
-    font-size: 300px;
+    font-size: 200px;
     letter-spacing: 10px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
-
 p {
     font-family: Rethink Sans;
-
-
 }
 
-.comeco {
+.general {
     display: flex;
     flex-direction:column;
+    gap: 30px;
     align-items: center;
-    width: 100%;
-    height: 1000px;
-
-
+    height: 100%;
+    
 }
 
 .redes {
@@ -45,21 +36,40 @@ p {
     height: 88px;
     border-radius: 39px;
     opacity: 80%;
-    margin-top: 63px ;
+    margin-top: 53px ;
 
 }
 
-.ultimo {
+.box-container {
+    margin-top: 53px;
+}
+.box {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #6B00FF;
-    width: 1348px;
+    width: 900px;
     height: 798px;
     border-radius: 179px;
-    margin-top: 117px;
 }
-
+.box-title {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: white;
+    font-family: Rethink Sans;
+    margin-top: 37px;
+}
+.align-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 footer {
     width: 100%;
     height: 409;
     background-color: #6B00FF;
+}
+.video {
+    width: 581px;
+    height: 39px;
 }
