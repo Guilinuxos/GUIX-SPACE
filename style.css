@@ -77,6 +77,7 @@ footer {
 header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 1861px;
     height: 158px;
     background-color: #5B00D8;
