@@ -207,6 +207,8 @@ footer {
     background: linear-gradient(to right, #6B00FF, #380086);
     z-index: 1;
     border-radius: 179px;
+    position: relative;
+    opacity: 100%;
 }
 
 .video_container{
@@ -214,13 +216,33 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    padding: 97px;
-    width: 90%;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 132px;
+    padding-bottom: 131px;
+    width: 100%;
+    opacity: 100%;
 }
+
 
 .video_container iframe{
     width: 351px;
     height: 197px;
     border-radius: 20px;
+    opacity: 100%;
+}
+
+.video_item > p{
+    text-align: center;
+    width: 350px;
+    height: 19px;
+    background: linear-gradient(to right, #6B00FF, #380086);
+    border-radius: 39px;
+    margin-top: 13px;
+    opacity: 68%;
+
+
+
+
 }
 
