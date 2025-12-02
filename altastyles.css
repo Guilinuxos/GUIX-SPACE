@@ -75,6 +75,10 @@ header > a img {
     margin-right: 4px;
 }
 
+.logo {
+    width: 140px;
+    height: 140px;
+}
 /*========================================Meio*/
 .general {
     display: flex;
