@@ -60,11 +60,11 @@ header a {
 }
 
 .title {
-    font-family: Vina sans;
+    font-family: Rethink Sans;
     text-align: center;
     color: white;
-    font-size: 200px;
-    letter-spacing: 10px;
+    font-size: 90px;
+    font-weight: 800;
     z-index: 1;
 }
 
@@ -72,11 +72,6 @@ header > a img {
     width: 20px;
     height: 20px;
     margin-right: 4px;
-}
-
-.logo {
-    width: 140px;
-    height: 140px;
 }
 
 /*========================================Meio*/
@@ -88,26 +83,6 @@ header > a img {
     width: 100%;
 }
 
-.redes {
-    background: linear-gradient(
-    to right,
-    rgba(107, 0, 255, 0.8),
-    rgba(56, 0, 134, 0.8)
-);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    width: 397px;
-    height: 98px;
-    border-radius: 39px;
-}
-
-.redes > .icon-container {
-    min-width: 48px;
-    height: 48px;
-    overflow:hidden;
-}
 
 .icon-container img {
     display: block;
@@ -120,9 +95,9 @@ header > a img {
 .caixa {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-evenly;
     width: 1348px;
-    height: 798px;
+    height: 766px;
     background: linear-gradient(
     to right,
     rgba(107, 0, 255, 0.8),
@@ -130,6 +105,7 @@ header > a img {
 );
     z-index: 1;
     border-radius: 179px;
+        padding-top: 87px;
 }
 
 .caixa > h2 {
@@ -140,6 +116,7 @@ header > a img {
     font-weight: 800;
     margin-bottom: 39px;
     opacity: 100%;
+
 }
 
 .caixa > .conteudo {
@@ -147,6 +124,8 @@ header > a img {
     justify-content: space-evenly;
     height: 471px;
     width: 100%;
+
+
 }
 
 .conteudo > .thumbspace {
@@ -214,6 +193,53 @@ header > a img {
     min-height: 72px;
     border-color: #6A00FF;
 }
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.foto{
+
+    width: 438px;
+    height: 558px;
+
+
+}
+
+.textos{
+    display: flex;
+    text-align: left;
+    margin-left: 126px;
+
+    flex-direction: column;
+    width: 597px;
+    height: 663px;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.t2{
+
+
+    margin-top: 77px;
+}
+
+.t3{
+
+    margin-top: 77px;
+}
+
+.email{
+
+    text-decoration: underline;
+    color: white;
+}
+
 /*========================================Fim*/
 footer {
     background: linear-gradient(to right, #5D00DE, #310076);
@@ -288,7 +314,7 @@ footer > .anchor {
     justify-content: center;
     overflow: hidden;
     left: 2000px;
-    top: 1710px;
+    top: 1450px;
 }
 .anchor img {
     display: block;
@@ -296,3 +322,4 @@ footer > .anchor {
     height: 52px;
     object-fit: cover;
 }
+
