@@ -114,6 +114,12 @@ header > a img {
     display: flex;
     flex-direction: column;
     width: 351px;
+    gap: 109px;
+}
+
+.videocell > .insidevideocell {
+    display: flex;
+    flex-direction: column;
 }
 .videocontainer {
     width: 351px;
@@ -123,7 +129,8 @@ header > a img {
 }
 
 .videocontainer iframe {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -134,7 +141,15 @@ header > a img {
     font-size: 15px;
     color: white;
     font-weight: 400;
+    z-index: 2;
+    text-align: center;
+    background: linear-gradient(to right,
+        rgba(107, 0, 255, 0.68),
+        rgba(56, 0, 134, 0.68)
+    );
+    border-radius: 39px;
 }
+
 
 /*========================================Fim*/
 footer {
@@ -210,7 +225,7 @@ footer > .anchor {
     justify-content: center;
     overflow: hidden;
     left: 2000px;
-    top: 1710px;
+    top: 1550px;
 }
 .anchor img {
     display: block;
